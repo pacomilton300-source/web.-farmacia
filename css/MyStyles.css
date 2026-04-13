@@ -1,0 +1,1892 @@
+.desktop{
+    display: block;
+}
+.celular{
+    display: none;
+}
+
+#menuCelularA {
+    z-index: 9999 !important;
+}
+.imgOferta{
+    width: 50px;
+    height: 50px;
+}
+
+.imgHeart{
+    width: 25px;
+    height: 25px;
+}
+.swiper-slide{
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.Iconografia{
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.iconografiaDesktop {
+    background-color: #ededed !important;
+    padding-bottom: 20px !important;
+    text-align: initial;
+    border-radius: 25px;
+    margin: 50px 250px;
+}
+
+.IconografiaRow{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.IconografiaRow2{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Pagos{
+    margin: 0px;
+}
+.Pagos2{
+    margin: 0px;
+}
+.Categoria{
+  /*  height: 116px !important;*/
+}
+.ArregloTablet {
+    text-align: right;
+}
+
+.BusquedaArreglo{
+    width: 90%;
+    margin: auto;
+}
+.Mapa{
+    background-color: #ededed;
+}
+
+.btn-listo{
+    background-color: #3ab549 !important;
+}
+
+.carousel2-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    /*  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);*/
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.carousel2-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel2-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel2-control.left, .carousel2-control.right {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    background-image: none;
+    opacity: 1;
+}
+
+.carousel2-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px;
+}
+
+.carousel2-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px;
+}
+
+.carousel2-control .glyphicon-chevron-left, .carousel2-control .glyphicon-chevron-right, .carousel2-control .icon-next, .carousel2-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.carousel2-control > a > span {
+    color: white;
+    font-size: 29px !important;
+}
+
+#mapDiv {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.cart-header-counter[_ngcontent-vxd-c32] {
+    width: 16px;
+    height: 16px;
+    background-color: #ff3b72;
+    border-radius: 10000px;
+    position: absolute;
+}
+
+.cart-header-number[_ngcontent-feo-c32] {
+    color: #fff;
+    font-weight: 800;
+    font-size: .625rem;
+    position: absolute;
+    right: 37%;
+    top: 0%;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+div.sticky2 {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    bottom: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.MenuRow{
+    background-color: #004da6;
+    padding-top: 0px !important;
+}
+
+.OpenMenu
+{
+    font-size:30px;
+    cursor:pointer;
+    color:#ffffff !important;
+    padding-top: 0px !important;
+}
+
+.IconoMenuDerecha{
+    float: right;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.menu ul {
+    display: none;
+}
+
+.menu ul li a {
+    /*background-color: #004da6;
+    color: #fff;*/
+    background-color: #ffffff;
+    color: #323232;
+    /*font-weight: bold;*/
+}
+.menu ul li a:hover {
+    background-color: #fff;
+    color: #004da6;
+}
+.menu2{
+    list-style: none;
+    margin: 0;
+    height: 653px;
+    transition: 0.5s;
+    background-color: #ededed;
+}
+
+.menu2 li {
+    position: relative;
+    width: 350px !important;
+    background-color: #FFFFFF;
+    color: #fff;
+}
+.menu2 li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu2 li ul {
+    transition: all 0.3s;
+    width: 1000px !important;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    top: 10%;
+    margin-right: -100px !important;
+    margin-left: 70px;
+    color: #fff;
+    left: 80%;
+    z-index: 1000;
+}
+.menu2 li ul a {
+    background-color: #FFF;
+}
+
+.OpcionMenu{
+    heigth: 444px;
+    color: #00376d !important;
+}
+.OpcionMenu2{
+    heigth: 444px;
+    color: #323232 !important;
+}
+
+.PiedePaginaContainer{
+    background-color: #073d72;
+    padding: 25px;
+}
+
+.IconoPie{
+    color: #fafafa;
+    font-size: 2rem;
+}
+.IconoPie2{
+    color: #fafafa;
+    font-size: 1rem;
+}
+.LogoPie{
+    height: 32px;
+    width: auto;
+}
+.PieLetras{
+    color: #fafafa;
+    font-size: 16px;
+}
+
+.PagosContainer{
+    background-color: #d7d7d7;
+    padding: 25px;
+    margin-top: 40px;
+    /*margin-right: 0px;
+    margin-left: 0px;*/
+    margin-bottom: 0px;
+}
+
+.PagosColor{
+    color: #073d72 !important;
+
+}
+.PagosCol{
+    padding-top: 15px;
+}
+
+.LogoPagos{
+    /*padding: 20px;*/
+    /*padding-right: 30px;*/
+    padding-top: 10px;
+    height: 53px;
+    width: auto;
+}
+
+.ProductosTitulo{
+    color: #004da4;
+    padding-top: 10px;
+    font-size: 22px !important;
+}
+.ProductosNombre{
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    color:#7b7b7b !important;
+    text-align: initial !important;
+}
+.CategoriaNombre{
+    color:#7b7b7b !important;
+}
+
+.TituloNovOfertas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 23px;
+    margin-right: 100px;
+    color: white;
+}
+
+.ProductosVer{
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.ProductosRow{
+    width: 100%;
+}
+.ProductosCarousel{
+    width: 90% !important;
+    margin: auto !important;
+    padding-left: 15px !important;
+}
+
+.ProductosImagen {
+    padding: 7px;
+    margin: auto;
+}
+
+.AnuncioImagen{
+    padding: 7px;
+    margin: auto;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.ProductosPrecio{
+    color: #353f41 !important;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    text-align: initial !important;
+    letter-spacing: 0 !important;
+}
+
+.ProductosPrecioAnterior{
+    font-weight: bold;
+    font-size: 18px !important;
+    letter-spacing: 0 !important;
+
+    text-align: initial !important;
+    color: red !important;
+    text-decoration: line-through;
+    white-space: nowrap;
+}
+
+.ProductosBoton{
+    background-color: #004da6;
+    color: #fdfdfd;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*height: fit-content;*/
+    align-self: end;
+}
+
+/* The side navigation menu - z-index mayor que buscador (999) para que el menú se vea encima en celular en todas las vistas */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    background-color: transparent !important;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    margin-top: 48px;
+    /*transition: 0.5s;*/ /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 99999;
+    background-color: rgba(50,50,50,0.7) !important;
+}
+
+.sidenav2 {
+    height: 90%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    background-color: transparent !important;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    margin-top: 48px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 99999;
+    background-color: rgba(50,50,50,0.7) !important;
+}
+
+.linkmenu{
+    padding-bottom: 5px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.topnav {
+    height: 0px;
+    width: 250px;
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-top: 48px;
+    transition: 0.5s;
+    z-index: 99999;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #ededed;
+    color: #323232;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    font-weight: bold !important;
+    color: #164EA8 !important;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+/*  STYLE BUSCADOR */
+
+.container-1{
+    width: 80%;
+    margin: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-1 input#search{
+    width: 100%;
+    height: 30px;
+    background: #fafafa;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: #323232;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;
+}
+.container-1 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 input#search2{
+    width: 100%;
+    height: 30px;
+    background: #fafafa;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: #323232;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.container-1 input#search2::-webkit-input-placeholder {
+    color: #65737e;
+}
+.container-1 input#search2:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+.container-1 input#search2::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;
+}
+.container-1 input#search2:-ms-input-placeholder {
+    color: #65737e;
+}
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 15px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+
+.carousel-control {
+    width: 8%;
+    width: 0px;
+
+}
+.carousel-control.left,
+.carousel-control.right {
+    margin-right: 40px;
+    margin-left: 32px;
+    background-image: none;
+    opacity: 0.7;
+}
+.carousel-control > a > span {
+    color: white;
+    font-size: 29px !important;
+}
+
+.carousel-col {
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+}
+
+/* STYLE BUSCADOR */
+
+.Categorias{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.IconoMenuInterno{
+    width: 45px;
+    height: auto;
+}
+
+.IconoMenuInterno2{
+    width: 45px;
+    height: auto;
+}
+
+.Menulg2{
+    padding-top: 8px !important;
+}
+
+.BannerPrincipal
+{
+    width: 100%;
+    padding: 0px;
+}
+
+.SliderPropio::-webkit-scrollbar{
+    display: none;
+}
+
+.SliderPropioBanner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.SlidePropioBanner {
+    width: 100%;
+    flex-shrink: 0;
+    height: auto;
+    display: none;
+}
+
+.CategoriasCol{
+    
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.TituloCategoria {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.CategoriasBoton {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.CategoriasBotonDiv {
+    background-color: #FFFFFF;
+    text-overflow: ellipsis;
+    border-radius: 100px;
+    border: 0px solid rgb(0,0,0);
+
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.CategoriasBotonDiv:hover {
+    background-color: #164EA8;
+}
+.CategoriasBotonDiv:hover p{
+    color: #FFFFFF;
+}
+
+.CategoriaEnlace {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 200px;
+    background-color: #ffffff;
+}
+
+.AbrirMenu {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.PiedePagina{
+    background-color: #073d72;
+    margin:0px;
+}
+
+.ProductosCol{
+    position: relative !important;
+    background-color: #fdfdfd !important;
+    border-radius: 15px !important;
+    padding: 0px !important;
+    width: 90% !important;
+    min-height: 375px !important;
+}
+
+.ProductosCol2{
+    position: relative !important;
+    background-color: #fdfdfd !important;
+    border-radius: 10px !important;
+    padding: 0px !important;
+    width: 90% !important;
+    min-height: 375px !important;
+}
+
+.ProductosContenido {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+
+}
+
+.ProductosColVendidos{
+    position: relative !important;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 0px !important;
+}
+
+.SubCategorias{
+    position: relative !important;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 0px !important;
+}
+
+.IconoMenu {
+    color: #ffffff !important;
+    font-size: 1.3rem;
+    padding-top: 10px !important;
+}
+.IconoMenu3 {
+    font-size: 1.3rem;
+    padding-top: 10px !important;
+}
+
+.buttonDetalle{
+    font-size: 13px;
+    color: #fff;
+    background: #1accfd;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 13px;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+.busquedaColumna{
+    min-height: 450px;
+}
+
+.checkout-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.arreglomodalQR{
+    margin-top: 200px;
+}
+
+.active > div { display:none; }
+.active > div:first-child { display:block; }
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .active.right{ left:  25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .mid         { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-col                { width: 25%; }
+.active > div:first-child + div { display:block; }
+.active > div:first-child + div + div { display:block; }
+.active > div:first-child + div + div + div { display:block; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 360px) {
+    .sidenav {
+        margin-top: 55px !important;
+    }
+    .sidenav2 {
+        margin-top: 55px !important;
+    }
+    .topnav{
+        margin-top: 55px !important;
+    }
+    /*Esto es para un Futuro*/
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+    .sidenav {
+        margin-top: 69px !important;
+    }
+    .sidenav2 {
+        margin-top: 69px !important;
+    }
+    .topnav{
+        margin-top: 30px !important;
+    }
+    /*Esto es para un Futuro*/
+}
+
+@media only screen and (max-width: 560px) {
+    .LogoPie{
+        width: 95%;
+        height: auto;
+
+    }
+    .PieLetras{
+        color: #fafafa;
+        font-size: 12px;
+    }
+    .MenuCol{
+        padding: 0px;
+        padding-left: 15px !important;
+    }
+    .AbrirMenu{
+        padding-left: 7px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .IconoMenu{
+        padding-left: 2px;
+        font-size: 15px;
+    }
+    .IconoMenu3{
+        padding-left: 2px;
+        font-size: 15px;
+    }
+    .Menuxs7{
+        padding-top: 7px !important;
+    }
+    .Menuxs2{
+        padding: 2px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 7px !important;
+    }
+    .checkout-container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: white;
+        border-radius: 25px;
+    }
+    #mapDiv {
+        height: 300px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .Pie{
+        padding: 0px;
+    }
+    .topnav{
+        margin-top: 55px !important;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+    .container-1 input#search {
+        width: 100%;
+        height: 35px;
+    }
+    .container-1 input#search2 {
+        width: 100%;
+        height: 35px;
+    }
+    .topnav{
+        margin-top: 35px !important;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+    .arreglomodalQR{
+        margin-top: 90px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .PagosColor{
+        color: #073d72 !important;
+        font-size: 16px;
+    }
+    .CategoriaNombre{
+        font-size: 14px;
+    }
+    .imgOferta{
+        width: 35px;
+        height: 35px;
+    }
+    .imgHeart{
+        width: 20px;
+        height: 20px;
+    }
+    .AnuncioImagen{
+        padding: 0px;
+        margin: auto;
+        margin-top: 27px;
+        width: 90%;
+        border-radius: 25px;
+    }
+    .Iconografia{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .IconografiaRow{
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 85%;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .CategoriasBotonDiv{
+        width: fit-content;
+    }
+    .carouselItems{
+        width: 100% !important;
+    }
+    .ProductosNombre{
+        font-size: 13px;
+    }
+    .IconoPie{
+        color: #fafafa;
+        font-size: 1.8rem;
+    }
+    .arreglomodalQR{
+        margin-top: 110px;
+    }
+    .ProductosPrecio{
+        font-size: 15px; /*12*/
+        letter-spacing: 0 !important;
+    }
+
+    .ProductosPrecioAnterior{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        font-size: 10px !important; /*10*/
+        letter-spacing: 0 !important;
+    }
+    .desktop{
+        display: none;
+    }
+    .container-1{
+        width: 90%;
+    }
+    .ProductosVer{
+        font-size: 12px;
+        padding-right: 0;
+    }
+    .celular{
+        display: block;
+    }
+    .MenuCol{
+        padding-top: 15px !important;
+        margin-left: 0px !important;
+    }
+    .LogoMenu{
+        width: 90% !important;
+    }
+
+    .AbrirMenu{
+        padding: 0px !important;
+    }
+    .SliderPropio {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .SlidePropio {
+        /*width: 100%;*/
+        flex-shrink: 0;
+        height: auto;
+    }
+    .PiedePagina{
+        padding: 20px;
+    }
+    .Pagos{
+        margin:0px;
+        background-color: #d7d7d7;
+        padding: 25px;
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+    .Pagos2{
+        margin:0px;
+        background-color: #d7d7d7;
+    }
+    .Productos{
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .MarginCategorias{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Productos2{
+        padding-bottom: 50px;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+    }
+    .ProductosCol{
+        /*width: 160px !important;*/
+        margin: 5px;
+        width: 47% !important;
+    }
+    .ProductosCol2{
+        /*width: 160px !important;*/
+        margin: 5px;
+        width: 47% !important;
+        min-height: 335px !important;
+    }
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 5px;
+        height: auto !important;
+        min-height: 290px !important;
+    }
+    .SubCategorias{
+        width: auto !important;
+        margin: 5px;
+        height: auto !important;
+        min-height: auto;
+    }
+    .CategoriaEnlace {
+        margin-left: 15px;
+    }
+    .IconoMenu{
+        font-size: 20px;
+    }
+
+    .LogoMenu{
+        width: 110% !important;
+        padding-top: 3px;
+    }
+    .CategoriasRow{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Categoria{
+        margin: auto;
+        text-align: center;
+        padding: 7px;
+        width: max-content;
+        height: 116px !important;
+    }
+
+    .Menuxs7{
+        padding-top: 12px;
+    }
+    .Menuxs2{
+        padding-top: 18px !important;
+        text-align: center;
+    }
+
+    .IconoMenu{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    #stepTwo{
+        padding-left: 0px !important;
+    }
+
+    .espaciado{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+    .carousel-inner .active.left { left: -25%; }
+    .carousel-inner .active.right{ left:  25%; }
+    .carousel-inner .next        { left:  25%; }
+    .carousel-inner .mid         { left:  25%; }
+    .carousel-inner .prev		 { left: -25%; }
+    .carousel-col                { width: 25%; }
+    .active > div:first-child + div { display:block; }
+    .active > div:first-child + div + div { display:block; }
+    .active > div:first-child + div + div + div { display:block; }
+    .close1 {
+        margin-top: -15px !important;
+    }
+
+    #mapDiv {
+        height: 300px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .topnav{
+        margin-top: 35px !important;
+    }
+
+    product-sec1{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .busquedaColumna {
+        min-height: 0px;
+    }
+
+    .arregloCelular{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .BusquedaArreglo{
+        width: 95%;
+        margin: auto;
+    }
+    .busquedaColumna {
+        padding: 0px !important;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    .ProductosCol{
+        /*width: 160px !important;*/
+        margin: 2px;
+        width: 48% !important;
+        min-height: 305px !important;
+    }
+    .ProductosCol2{
+        /*width: 160px !important;*/
+        margin: 3px;
+        width: 47% !important;
+        min-height: 305px !important;
+    }
+    .MenuCol{
+        margin-top: 4px;
+        padding-top: 10px !important;
+        margin-left: 0px !important;
+    }
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 5px;
+        height: auto !important;
+        min-height: 275px !important;
+    }
+    .SubCategorias{
+        width: auto !important;
+        margin: 5px;
+        height: auto !important;
+        min-height: auto;
+    }
+    .Menuxs2{
+        padding-top: 12px !important;
+        text-align: center;
+    }
+    .topnav{
+        margin-top: 30px !important;
+    }
+    .AbrirMenu img{
+        height: 18px !important;
+        margin-top: -3px;
+    }
+    .ProductosVer{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .LogoMenu {
+        width: 100% !important;
+        padding-top: 11px;
+    }
+    .ProductosCol2{
+        min-height: 300px !important;
+    }
+    .Productos{
+        border-radius: 15px;
+    }
+    .Productos2{
+        border-radius: 25px;
+    }
+    .topnav{
+        margin-top: 55px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Iconografia{
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .iconografiaDesktop {
+        margin: 50px 150px;
+        border-radius: 15px;
+    }
+    .Productos{
+        border-radius: 15px;
+    }
+    .Productos2{
+        border-radius: 25px;
+    }
+
+    .CategoriasBoton {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin-top: 20px !important;
+    }
+
+    .col-xs-2{
+        padding: 0px !important;
+        padding: 0px !important;
+    }
+
+    .MenuCol {
+        padding-top: 9px !important;
+        margin-left: 0px !important;
+    }
+
+    .ArregloTablet {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: left;
+    }
+    .LogoMenu {
+        width: 120% !important;
+        padding-top: 20px !important;
+    }
+    .col-centered{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .ProductosRow{
+        width: auto;
+    }
+    .carousel-col
+    {
+        width: 25%;
+    }
+    .ProductosCarousel{
+        margin-bottom: 50px;
+    }
+
+    .Categorias{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: 300px !important;
+        _height: 300px !important;
+    }
+
+    .SubCategorias{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+
+    .ProductosCol2{
+        min-height: 250px !important;
+    }
+    .nombrecategoria{
+        font-size: 13px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1000px) {
+    .Iconografia{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .iconografiaDesktop {
+        margin: 50px 200px;
+        border-radius: 20px;
+    }
+    .TituloNovOfertas{
+        margin-right: 100px;
+    }
+    .IconografiaRow2{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Productos{
+        border-radius: 15px;
+    }
+    .Productos2{
+        border-radius: 25px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .MenuCol {
+        padding-top: 7px !important;
+        margin-left: 25px !important;
+    }
+
+    .ArregloTablet {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: right;
+    }
+    .LogoMenu {
+        width: 100% !important;
+        padding-top: 13px !important;
+    }
+    .col-centered{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .ProductosRow{
+        width: auto;
+    }
+    .carousel-col
+    {
+        width: 25%;
+    }
+    .ProductosCarousel{
+        margin-bottom: 50px;
+    }
+
+    .Categorias{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: 400px !important;
+        height: 400px !important;
+    }
+
+    .SubCategorias{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: auto;
+    }
+
+    .ProductosCol2{
+        min-height: 300px !important;
+    }
+    .nombrecategoria{
+        font-size: 13px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .topnav{
+        margin-top: 40px !important;
+    }
+    .sidenav {
+        margin-top: 60px !important;
+    }
+    .sidenav2 {
+        margin-top: 60px !important;
+    }
+    .arreglomodalQR{
+        margin-top: 110px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1190px) {
+    .sidenav {
+        margin-top: 64px !important;
+    }
+    .sidenav2 {
+        margin-top: 64px !important;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .topnav{
+        margin-top: 55px !important;
+    }
+    .LogoMenu {
+        width: 100% !important;
+        padding-top: 12px !important;
+    }
+    .TituloNovOfertas{
+        margin-right: 83px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1300px) {
+    .MenuCol{
+        padding-top: 7px !important;
+        margin-left: 50px !important;
+    }
+    .Iconografia{
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .IconografiaRow{
+        margin-left: 220px;
+        margin-right: 220px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 70%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .iconografiaDesktop {
+        margin: 50px 250px;
+        border-radius: 25px;
+    }
+
+    .LogoMenu{
+        width: 70% !important;
+    }
+    .AbrirMenu{
+        padding: 25px;
+        padding-top: 50px !important;
+    }
+
+    .Pagos{
+        background-color: #d7d7d7;
+        margin:0px;
+    }
+    .Pagos2{
+        background-color: #d7d7d7;
+        margin:0px;
+    }
+    .Productos{
+        margin-left: 150px;
+        margin-right: 150px;
+        padding-bottom: 50px;
+        /*  margin-bottom: 50px;
+          margin-top: 50px;*/
+        border-radius: 25px;
+        background-color: #FFFFFF;
+    }
+    .MarginCategorias{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .Productos2{
+        margin-left: 150px;
+        margin-right: 150px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+    }
+
+    .ProductosColVendidos{
+        position: relative !important;
+        padding: 0px !important;
+        width: 90% !important;
+        min-height: 350px !important;
+        _height: 350px !important;
+    }
+
+    .SubCategorias{
+        position: relative !important;
+        padding: 0px !important;
+        width: 90% !important;
+        min-height: auto;
+    }
+
+    .CategoriasRow{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .Categoria{
+        padding: 7px;
+    }
+    .busquedaColumna{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .ProductosCol2{
+        min-height: 300px !important;
+    }
+    .nombrecategoria{
+        font-size: 18px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .topnav{
+        margin-top: 55px !important;
+    }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .LogoMenu{
+        width: 90% !important;
+    }
+    .ProductosColVendidos{
+        position: relative !important;
+        padding: 0px !important;
+        width: 90% !important;
+        min-height: 450px !important;
+        _height: 450px !important;
+    }
+
+    .SubCategorias{
+        position: relative !important;
+        padding: 0px !important;
+        width: 90% !important;
+        min-height: auto;
+    }
+    .ProductosCol2{
+        min-height: 400px !important;
+    }
+    .LogoMenu{
+        width: 70% !important;
+    }
+    .Productos{
+        border-radius: 25px;
+    }
+    .Productos2{
+        border-radius: 25px;
+    }
+    .topnav{
+        margin-top: 42px !important;
+    }
+    .sidenav {
+        margin-top: 69px !important;
+    }
+    .sidenav2 {
+        margin-top: 69px !important;
+    }
+}
+
+@media screen and (max-width: 1700px) and (max-height: 1100px) {
+    .MarginCategorias {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Productos {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .Iconografia {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .IconografiaRow {
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .iconografiaDesktop {
+        margin: 50px 100px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (max-height: 900px) {
+    .Iconografia {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .IconografiaRow {
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 90% !important;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .iconografiaDesktop {
+        margin: 50px 75px;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Iconografia {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .IconografiaRow2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .iconografiaDesktop {
+        margin: 50px 50px;
+        border-radius: 20px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1280px) {
+
+    .Iconografia{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .IconografiaRow{
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 85%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Productos{
+        border-radius: 15px;
+    }
+    .Productos2{
+        border-radius: 25px;
+    }
+    .MenuCol {
+        padding-top: 12px !important;
+        margin-left: 25px !important;
+    }
+
+    .ArregloTablet {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: right;
+    }
+    .col-centered{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .ProductosRow{
+        width: auto;
+    }
+    .carousel-col
+    {
+        width: 25%;
+    }
+    .ProductosCarousel{
+        margin-bottom: 50px;
+    }
+
+    .Categorias{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: 480px !important;
+        _height: 350px !important;
+    }
+
+    .SubCategorias{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: auto;
+    }
+
+    .ProductosCol2{
+        min-height: 250px !important;
+    }
+    .nombrecategoria{
+        font-size: 13px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) and (max-height: 900px) {
+    .ProductosColVendidos{
+        width: auto !important;
+        margin: 7px;
+        height: auto !important;
+        min-height: 440px !important;
+        _height: 350px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Iconografia {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .TituloNovOfertas{
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .IconografiaRow {
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .IconografiaRow2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 85%;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .iconografiaDesktop {
+        margin: 35px 15px;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ProductosTitulo {
+        margin-left: 0 !important;
+    }
+}
